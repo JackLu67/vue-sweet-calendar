@@ -187,7 +187,7 @@ export default {
       }
     }
   },
-  beforeMount () {
+  beforeMount() {
     this.date = Date.parse(this.initialDate) ? new DateTime(this.initialDate) : new DateTime()
     this.weekdays = this.generateWeekdayNames(this.firstDayOfWeek)
   }
